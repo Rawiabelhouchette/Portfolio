@@ -1,9 +1,9 @@
 <h2 align="center">
   Portfolio Website - v4.0<br/>
-  <a href="http://louai.vercel.app/" target="_blank">Rawya.vercel</a>
+  <a href="https://rawya.vercel.app/" target="_blank">rawya.vercel.app</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./public/ab.PNG" />
+  <img alt="Demo" src="./public/RB.png" />
 </div>
 
 <br/>
@@ -18,16 +18,16 @@
 
 <h3 align="center">
     🔹
-    <a href="https://github.com/AlouiLouai/2023-2024-portfolio/-/issues">Report Bug</a> &nbsp; &nbsp;
+    <a href="https://github.com/Rawiabelhouchette/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
     🔹
-    <a href="https://github.com/AlouiLouai/2023-2024-portfolio/-/issues">Request Feature</a>
+    <a href="https://github.com/Rawiabelhouchette/Portfolio/issues">Request Feature</a>
 </h3>
 
 
 
 ## Built With
 
-My personal portfolio <a href="http://louai.vercel.app/" target="_blank">louai.vercel</a> which features some of my github projects as well as my resume and technical skills.<br/>
+My personal portfolio <a href="https://rawya.vercel.app/" target="_blank">rawya.vercel.app</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
 This project was built using these technologies.
 
