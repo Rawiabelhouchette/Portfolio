@@ -3,7 +3,7 @@
   <a href="https://rawya.vercel.app/" target="_blank">rawya.vercel.app</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./public/ab.PNG" />
+  <img alt="Demo" src="./public/RB.PNG" />
 </div>
 
 <br/>
