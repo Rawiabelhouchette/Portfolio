@@ -30,7 +30,7 @@ function HomeTop() {
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
-              <Image src={'/home-main.svg'} width={500} height={900}  alt="home pic" className="img-fluid" />
+              <Image src={'/home-main.png'} width={500} height={900}  alt="home pic" className="img-fluid" />
             </Col>
           </Row>
         </Container>

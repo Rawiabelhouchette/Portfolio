@@ -24,14 +24,6 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.facebook.com/profile.php?id=100070654390110"
-                style={{ color: "white" }}
-              >
-                <i className="fab fa-facebook"></i>
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
                 href="https://www.linkedin.com/in/belhouchette-rawya/"
                 style={{ color: "white" }}
               >
