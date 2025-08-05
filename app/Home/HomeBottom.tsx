@@ -12,7 +12,7 @@ import {
 const Tilt = dynamic(() => import("react-parallax-tilt"), { ssr: false });
 
 function HomeBottom() {
-  const myImg = "/avatar.svg";
+  const myImg = "/avatara.png";
 
   return (
     <Container fluid className="home-about-section" id="about">
