@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../components/Particle";
 import Techstack from "./TechStack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../public/about.png";
+import laptopImg from "../../public/abouut.png";
 import Image from "next/image";
 import CoreLayout from "../Shared/core.layout";
 import Github from "./GithubCalendar";
@@ -42,36 +42,53 @@ function About() {
             Professional <strong className="purple">Skillset </strong>
           </h1>
           <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+            {/* Langages & Scripts */}
+            <Techstack iconName="devicon-java-plain" />
             <Techstack iconName="devicon-javascript-plain" />
-            <Techstack iconName="devicon-typescript-plain" />
             <Techstack iconName="devicon-python-plain" />
-            <Techstack iconName="devicon-bash-plain" />
-            <Techstack iconName="devicon-nodejs-plain-wordmark" />
-            <Techstack iconName="devicon-express-original-wordmark" />
-            <Techstack iconName="devicon-nestjs-plain" />
-            <Techstack iconName="devicon-react-original-wordmark" />
-            <Techstack iconName="devicon-gatsby-plain-wordmark" />
-            <Techstack iconName="devicon-nextjs-original-wordmark" />
-            <Techstack iconName="devicon-graphql-plain-wordmark" />
-            <Techstack iconName="devicon-bootstrap-plain-wordmark" />
-            <Techstack iconName="devicon-css3-plain-wordmark" />
-            <Techstack iconName="devicon-html5-plain-wordmark" />
-            <Techstack iconName="devicon-postgresql-plain" />
-            <Techstack iconName="devicon-mongodb-plain" />
-          </Row>
-          <h1 className="project-heading">
-            <strong className="purple">Tools</strong> I use
-          </h1>
-          <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-            <Techstack iconName="devicon-visualstudio-plain" />
-            <Techstack iconName="devicon-pycharm-plain" />
-            <Techstack iconName="devicon-amazonwebservices-plain-wordmark" />
-            <Techstack iconName="devicon-kubernetes-plain" />
-            <Techstack iconName="devicon-docker-plain-wordmark" />
-            <Techstack iconName="devicon-git-plain-wordmark" />
-            <Techstack iconName="devicon-heroku-original" />
-            <Techstack iconName="devicon-apachekafka-original" />
-          </Row>
+            <Techstack iconName="devicon-typescript-plain" />
+            <Techstack iconName="devicon-dart-plain" />
+            </Row>
+            
+            <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+              {/* Backend */}
+              <Techstack iconName="devicon-spring-plain-wordmark" />
+              <Techstack iconName="devicon-nodejs-plain-wordmark" />
+              <Techstack iconName="devicon-dot-net-plain-wordmark" />
+              <Techstack iconName="devicon-express-original-wordmark" />
+              </Row>
+              
+              <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+                {/* Frontend */}
+                <Techstack iconName="devicon-angularjs-plain" />
+                <Techstack iconName="devicon-react-original-wordmark" />
+                <Techstack iconName="devicon-html5-plain-wordmark" />
+                <Techstack iconName="devicon-css3-plain-wordmark" />
+                </Row>
+                
+                <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+                  {/* Mobile Dev */}
+                  <Techstack iconName="devicon-android-plain" />
+                  <Techstack iconName="devicon-flutter-plain" />
+                  </Row>
+                  
+                  <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+                    {/* Bases de Données */}
+                    <Techstack iconName="devicon-mongodb-plain" />
+                    <Techstack iconName="devicon-sqlite-plain" />
+                    </Row>
+                    
+                    <h1 className="project-heading">
+                      <strong className="purple">Tools</strong> I use
+                      </h1>
+                      
+                      <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+                        <Techstack iconName="devicon-git-plain-wordmark" />
+                        <Techstack iconName="devicon-postman-plain" />
+                        <Techstack iconName="devicon-firebase-plain" />
+                        <Techstack iconName="devicon-figma-plain" />
+                        <Techstack iconName="devicon-bootstrap-plain-wordmark" />
+                        </Row>
           <Github />
         </Container>
       </Container>

@@ -5,11 +5,12 @@ function TypeWriter() {
     <Typewriter
       options={{
         strings: [
-          "Software engineer",
-          "Full Stack javascript engineer",
-          "python developer",
-          "A dreamer to become one of the brightest engineer in the world!",
-          "And Why not making a radical contribution to wrold technologies"
+          "Full Stack Developer",
+          "Java & Spring Boot Enthusiast",
+          "Frontend lover: Angular & React Native",
+          "Passionate about AI & Smart Systems",
+          "Future software engineer with impact",
+          "Aspiring to build tech that changes lives"
         ],
         autoStart: true,
         loop: true,

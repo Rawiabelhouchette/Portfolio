@@ -10,17 +10,17 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">RAWYA BELHOUCHET</span>
             from <span className="purple"> Tunisia</span>
-            <br />Software engineer.
+            <br />Software developer.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <FontAwesomeIcon icon={faHandPointRight} /> Playing Football
+              <FontAwesomeIcon icon={faHandPointRight} /> Designing UI/UX concepts
             </li>
             <li className="about-activity">
-              <FontAwesomeIcon icon={faHandPointRight} /> Reading books
+              <FontAwesomeIcon icon={faHandPointRight} /> Solving problems
             </li>
             <li className="about-activity">
               <FontAwesomeIcon icon={faHandPointRight} /> Listning to music
@@ -30,6 +30,7 @@ function AboutCard() {
           <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
             Strive to build things that make a difference!{" "}
           </p>
+          <br></br>
           <footer className="blockquote-footer">Rawya</footer>
         </blockquote>
       </Card.Body>

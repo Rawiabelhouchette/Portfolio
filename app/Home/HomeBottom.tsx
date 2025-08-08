@@ -24,38 +24,29 @@ function HomeBottom() {
             </h1>
             <p className="home-about-body">
               I am a passionate{" "}
-              <span className="purple">Full-Stack JavaScript Engineer</span>{" "}
-              with expertise in building scalable web applications and services.
+              <span className="purple">Full-Stack Developer</span>{" "}
+              with expertise in building robust and scalable web and mobile applications
               <br />
-              <br />I am highly proficient in modern JavaScript frameworks like
+              <br />I am highly proficient in modern frontend technologies like
               <i>
                 <b className="purple">
                   {" "}
-                  React, Next.js, Gatsby, Express.js, and Nest.js.{" "}
+                  Angular and React Native.{" "}
                 </b>
               </i>
-              I also have experience working with{" "}
-              <b className="purple">Flask</b> for backend development.
+              combined  with powerful backend frameworks such as{" "}
+              <b className="purple">Java and Spring Boot</b>
               <br />
               <br />
-              My skillset extends to <b className="purple">DevOps</b>, where I
-              have worked extensively with
-              <i>
-                <b className="purple">
-                  AWS EC2, S3, SES, and SQS, as well as CI/CD pipelines, Bash
-                  scripting, and monitoring tools like Loki and Grafana.
-                </b>
-              </i>
+              I thrive in fast-paced, multicultural environments and stand out for my ability to learn quickly, adapt effectively, and tackle complex challenges.
               <br />
               <br />
-              Additionally, I gained valuable experience as a{" "}
-              <span className="purple">Quantitative Developer</span> while
-              working at a hedge fund startup, where I contributed to financial
-              solutions leveraging my programming expertise.
+              I am currently exploring {" "}
+              <span className="purple">intelligent systems and integrating AI into real-world applications</span>, while strengthening my expertise in software architecture and application performance.
               <br />
               <br />
-              My goal is to continuously learn, adapt, and apply my skills to
-              solve challenging problems and build impactful software.
+              My goal is to actively contribute to innovative, user-centered projects and grow within dynamic technical teams.
+
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -83,32 +74,12 @@ function HomeBottom() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.facebook.com/profile.php?id=100070654390110"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <FontAwesomeIcon icon={faFacebook} />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
                   href="https://www.linkedin.com/in/belhouchette-rawya/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
                   <FontAwesomeIcon icon={faLinkedin} />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.gitlab.com/LouaiAloui"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <FontAwesomeIcon icon={faGitlab} />
                 </a>
               </li>
             </ul>

@@ -14,6 +14,14 @@ import dockerLogo from "../../public/projects/docker.png";
 import downloadImageLogo from "../../public/projects/download_images.png";
 import TopScroll from "../components/ScrollToTop";
 
+import vamiyiLogo from "../../public/projects/vamiyi.png"; // image symbolisant consulting et RH
+import cosmeticShopLogo from "../../public/projects/cosmo.png"; // icône de cosmétique + mobile
+import financeTrackerLogo from "../../public/projects/finance.png"; // icône finance / budget
+import vnetworkLogo from "../../public/projects/network.png"; // icône social network
+import vnetworkBackendLogo from "../../public/projects/bakend.png"; // icône backend / serveur
+import b2bManagerLogo from "../../public/projects/manager.png"; // icône gestion produits / B2B
+
+
 export default function Projects() {
   return (
     <CoreLayout>
@@ -30,85 +38,59 @@ export default function Projects() {
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={talkernLogo} // Replace with the path to your chat app logo or image
+                imgPath={vamiyiLogo} // Replace with the path to your chat app logo or image
                 isBlog={false}
-                title="Chat Application"
-                description="A real-time chat app built with Flask, Socket.IO, PostgreSQL, Next.js, MinIO bucket, and Docker."
-                link="https://github.com/AlouiLouai/chat-app" // Replace with the actual GitHub link to your project
+                title="VAMIYI"
+                description="Personal Development & HR Consulting Platform built with React.js (Vite), Tailwind CSS, React Router, EmailJS, i18n, Node.js, Express.js, and MongoDB."
+                link="https://github.com/Rawiabelhouchette/vamiyi-main.git" // Replace with the actual GitHub link to your project
               />
             </Col>
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={ecommerce} // Replace with the path to your e-commerce app logo or image
+                imgPath={cosmeticShopLogo} // Replace with the path to your e-commerce app logo or image
                 isBlog={false}
-                title="E-Commerce Bookstore"
-                description="An e-commerce app for selling books, built with Express (TypeScript with Bun.js and decorators), Next.js 15 App Router, Redux, PostgreSQL, and Vercel Blob for book storage."
-                link="https://github.com/AlouiLouai/education-plateform" // Replace with the actual GitHub link to your project
+                title="Cosmetic Shop - Android Application"
+                description="Cosmetic Shop is a modern Android e-commerce app for cosmetics, built with Java, Firebase (Realtime DB, Auth, Analytics), Google Maps API, Dexter, and Material Design."
+                link="https://github.com/Rawiabelhouchette/Preject_android.git" // Replace with the actual GitHub link to your project
               />
             </Col>
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={reactLogo}
+                imgPath={financeTrackerLogo}
                 isBlog={false}
-                title="Witout create-react-app"
-                description="Since deprecated , I implement a react app from scratch with typescript without runnung the CRA"
-                link="https://github.com/AlouiLouai/without-create-react-app-typescript-"
+                title="Personal Finance Tracker"
+                description="Finance Manager is a cross-platform mobile app built with React Native, Expo, React Navigation, AsyncStorage, and Lottie, designed to track income, expenses, and financial goals."
+                link="https://github.com/Rawiabelhouchette/ProjectReactNative.git"
               />
             </Col>
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={csgoLogo}
+                imgPath={vnetworkLogo}
                 isBlog={false}
-                title="Playing with CS-GO"
-                description="tooking a txt file having data from cs-go real party, working with python to get the stats I need . Using the child process of node js to get the data from python"
-                link="https://github.com/AlouiLouai/playing-with-CS-GO-dataset"
+                title="V-Network"
+                description="V-Network is a full-stack social media application built with the MERN stack, featuring real-time communication via Socket.io and WebRTC, with authentication, state management, and peer-to-peer connectivity."
+                link="https://github.com/Rawiabelhouchette/v-network-main.git"
               />
             </Col>
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={dockerLogo}
+                imgPath={vnetworkBackendLogo}
                 isBlog={false}
-                title="Docker app"
-                description="Playing with express js, postgresql, sequelize and docker to CRUD a user "
-                link="https://github.com/AlouiLouai/dockerApp"
+                title="V-Network Backend"
+                description="Backend for a social networking mobile app (V-Network), providing a RESTful API for user authentication, posts, likes, comments, messaging, and user relationships, built with Node.js, Express, and MongoDB."
+                link="https://github.com/Rawiabelhouchette/socail-media-backend.git"
               />
             </Col>
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={hgLogo}
+                imgPath={b2bManagerLogo}
                 isBlog={false}
-                title="NFT Marketplace"
-                description="As OpenSea , but based on the new DLT ( hedera-hashgraph ) "
-                link="https://www.hashguild.xyz"
+                title="Smart B2B Manager – Laravel App for Products, Partners & Requests"
+                description="Full-stack web application for managing products, partners, and requests, built with Laravel 11, Jetstream, Livewire, Tailwind CSS, and MySQL; includes user authentication and role-based authorization."
+                link="https://github.com/Rawiabelhouchette/ecoplast.git"
               />
             </Col>
-            <Col md={4} className="project-card">
-              <ProjectCard
-                imgPath={reduxLogo}
-                isBlog={false}
-                title="Servless react redux-saga"
-                description="Finally done with redux-saga application that had videos reader and photo viewer ."
-                link="https://gitlab.com/LouaiAloui/react-redux-saga"
-              />
-            </Col>
-            <Col md={4} className="project-card">
-              <ProjectCard
-                imgPath={facebookLogo}
-                isBlog={false}
-                title="Cool Chrome extension"
-                description="A chrome extension that allow you to share one picture or some text in any website by one click to Facebook. A modal with the interface of share photo or text on Facebook."
-                link="https://gitlab.com/LouaiAloui/facebooksharecontent"
-              />
-            </Col>
-            <Col md={4} className="project-card">
-              <ProjectCard
-                imgPath={downloadImageLogo}
-                isBlog={false}
-                title="Another cool Chrome extension"
-                description="A chrome extension that allow you to download picture in any website by one click."
-                link="https://gitlab.com/LouaiAloui/imagedownloader"
-              />
-            </Col>
+            
           </Row>
         </Container>
       </Container>
